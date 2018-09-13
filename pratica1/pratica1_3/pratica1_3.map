@@ -1,0 +1,72 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Tue Sep 06 18:16:44 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .org_1       code   0x001000    program   0x000146
+.config_300000_PRATICA1_3.O    romdata   0x300000    program   0x000001
+.config_300001_PRATICA1_3.O    romdata   0x300001    program   0x000001
+.config_300002_PRATICA1_3.O    romdata   0x300002    program   0x000001
+.config_300003_PRATICA1_3.O    romdata   0x300003    program   0x000001
+.config_300005_PRATICA1_3.O    romdata   0x300005    program   0x000001
+.config_300006_PRATICA1_3.O    romdata   0x300006    program   0x000001
+.config_300008_PRATICA1_3.O    romdata   0x300008    program   0x000001
+.config_300009_PRATICA1_3.O    romdata   0x300009    program   0x000001
+.config_30000A_PRATICA1_3.O    romdata   0x30000a    program   0x000001
+.config_30000B_PRATICA1_3.O    romdata   0x30000b    program   0x000001
+.config_30000C_PRATICA1_3.O    romdata   0x30000c    program   0x000001
+.config_30000D_PRATICA1_3.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000001      
+                            0x001000    0x001145      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            340 out of 33048 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            CLEAR_DISPLAY   0x001096    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                      DAT   0x000000    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_0   0x0010a6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_1   0x0010b6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_2   0x0010c6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_3   0x0010d6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_4   0x0010e6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_5   0x0010f6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_6   0x001106    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_7   0x001116    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_8   0x001126    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_9   0x001136    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                     LOOP   0x001022    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      DAT   0x000000    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                     LOOP   0x001022    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+            CLEAR_DISPLAY   0x001096    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_0   0x0010a6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_1   0x0010b6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_2   0x0010c6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_3   0x0010d6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_4   0x0010e6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_5   0x0010f6    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_6   0x001106    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_7   0x001116    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_8   0x001126    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+                DISPLAY_9   0x001136    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica\pratica1_3\pratica1_3.asm
+
+

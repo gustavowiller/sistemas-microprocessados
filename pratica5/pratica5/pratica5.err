@@ -1,0 +1,4 @@
+Warning[2068] C:\Users\u2503a02034\Desktop\pratica5\pratica5.c 39 : obsolete use of implicit 'int' detected
+Warning[2103] C:\Users\u2503a02034\Desktop\pratica5\pratica5.c 39 : default startup code expects main function declared as 'void main (void)'
+Warning[2066] C:\Users\u2503a02034\Desktop\pratica5\pratica5.c 94 : type qualifier mismatch in assignment
+Warning[2066] C:\Users\u2503a02034\Desktop\pratica5\pratica5.c 100 : type qualifier mismatch in assignment

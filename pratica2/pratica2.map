@@ -1,0 +1,122 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Fri Sep 23 19:37:13 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00000e
+                   .org_1       code   0x001000    program   0x000296
+.config_300000_PRATICA2.O    romdata   0x300000    program   0x000001
+.config_300001_PRATICA2.O    romdata   0x300001    program   0x000001
+.config_300002_PRATICA2.O    romdata   0x300002    program   0x000001
+.config_300003_PRATICA2.O    romdata   0x300003    program   0x000001
+.config_300005_PRATICA2.O    romdata   0x300005    program   0x000001
+.config_300006_PRATICA2.O    romdata   0x300006    program   0x000001
+.config_300008_PRATICA2.O    romdata   0x300008    program   0x000001
+.config_300009_PRATICA2.O    romdata   0x300009    program   0x000001
+.config_30000A_PRATICA2.O    romdata   0x30000a    program   0x000001
+.config_30000B_PRATICA2.O    romdata   0x30000b    program   0x000001
+.config_30000C_PRATICA2.O    romdata   0x30000c    program   0x000001
+.config_30000D_PRATICA2.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00000d      
+                            0x001000    0x001295      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            688 out of 33048 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 CONTADOR   0x001050    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+          CONTADOR_DEZENA   0x001092    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+         CONTADOR_UNIDADE   0x00106e    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                    DELAY   0x0010d2    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+           DESTRAVA_BOTAO   0x0010cc    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                  DIGIT_L   0x000002    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                  DIGIT_R   0x000000    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_0   0x001196    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_0L   0x001236    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_1   0x0011a6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_1L   0x001246    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_2   0x0011b6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_2L   0x001256    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_3   0x0011c6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_3L   0x001266    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_4   0x0011d6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_4L   0x001276    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_5   0x0011e6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_5L   0x001286    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_6   0x0011f6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_7   0x001206    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_8   0x001216    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_9   0x001226    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                 Del_10ms   0x0010d4    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                Del_200us   0x0010d8    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+          INICIA_CONTADOR   0x001046    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                   INICIO   0x00102c    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                     Loop   0x0010dc    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+           MOSTRA_DISPLAY   0x0010f4    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+           PARAR_CONTADOR   0x00109c    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+          PARAR_CONTADOR2   0x0010a6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+         RESETAR_CONTADOR   0x0010b0    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+             TEMPORIZADOR   0x000006    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+              TRAVA_BOTAO   0x000004    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                    ZERAR   0x0010c2    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                delay_val   0x000008    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               delay_x200   0x00000c    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                delay_x50   0x00000a    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  DIGIT_R   0x000000    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                  DIGIT_L   0x000002    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+              TRAVA_BOTAO   0x000004    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+             TEMPORIZADOR   0x000006    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                delay_val   0x000008    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                delay_x50   0x00000a    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               delay_x200   0x00000c    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                   INICIO   0x00102c    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+          INICIA_CONTADOR   0x001046    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                 CONTADOR   0x001050    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+         CONTADOR_UNIDADE   0x00106e    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+          CONTADOR_DEZENA   0x001092    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+           PARAR_CONTADOR   0x00109c    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+          PARAR_CONTADOR2   0x0010a6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+         RESETAR_CONTADOR   0x0010b0    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                    ZERAR   0x0010c2    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+           DESTRAVA_BOTAO   0x0010cc    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                    DELAY   0x0010d2    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                 Del_10ms   0x0010d4    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                Del_200us   0x0010d8    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                     Loop   0x0010dc    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+           MOSTRA_DISPLAY   0x0010f4    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_0   0x001196    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_1   0x0011a6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_2   0x0011b6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_3   0x0011c6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_4   0x0011d6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_5   0x0011e6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_6   0x0011f6    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_7   0x001206    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_8   0x001216    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+                DISPLAY_9   0x001226    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_0L   0x001236    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_1L   0x001246    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_2L   0x001256    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_3L   0x001266    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_4L   0x001276    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+               DISPLAY_5L   0x001286    program     static C:\Users\u2503a02034\Desktop\pratica2\pratica2.asm
+
+

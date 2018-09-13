@@ -1,0 +1,63 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Tue Sep 06 13:41:32 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x001000    program   0x000060
+.config_300000_PRATICA1.O    romdata   0x300000    program   0x000001
+.config_300001_PRATICA1.O    romdata   0x300001    program   0x000001
+.config_300002_PRATICA1.O    romdata   0x300002    program   0x000001
+.config_300003_PRATICA1.O    romdata   0x300003    program   0x000001
+.config_300005_PRATICA1.O    romdata   0x300005    program   0x000001
+.config_300006_PRATICA1.O    romdata   0x300006    program   0x000001
+.config_300008_PRATICA1.O    romdata   0x300008    program   0x000001
+.config_300009_PRATICA1.O    romdata   0x300009    program   0x000001
+.config_30000A_PRATICA1.O    romdata   0x30000a    program   0x000001
+.config_30000B_PRATICA1.O    romdata   0x30000b    program   0x000001
+.config_30000C_PRATICA1.O    romdata   0x30000c    program   0x000001
+.config_30000D_PRATICA1.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x001000    0x00105f      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            108 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+           DESLIGA_BUZZER   0x00103e    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+              DESLIGA_LED   0x001028    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+             DESLIGA_RELE   0x001054    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+              LIGA_BUZZER   0x001044    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+                 LIGA_LED   0x00102e    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+                LIGA_RELE   0x00105a    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+              LOOP_BUZZER   0x001034    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+                 LOOP_LED   0x00101e    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+                LOOP_RELE   0x00104a    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 LOOP_LED   0x00101e    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+              DESLIGA_LED   0x001028    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+                 LIGA_LED   0x00102e    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+              LOOP_BUZZER   0x001034    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+           DESLIGA_BUZZER   0x00103e    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+              LIGA_BUZZER   0x001044    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+                LOOP_RELE   0x00104a    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+             DESLIGA_RELE   0x001054    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+                LIGA_RELE   0x00105a    program     static C:\Users\Aluno\Desktop\SISTEMAS MICROPROCESSADOS - Maurílio\pratica 1\pratica1.asm
+
+
